@@ -1,0 +1,106 @@
+/*the main stylesheet*/
+
+
+
+/*
+
+color
+
+White= #fff
+cream= #FFF7C9
+Black=	#333
+Dark blue= #0E6EE8
+
+
+*/ 
+
+
+
+
+
+
+#wrapper
+{
+margin:0 auto;
+width:100%;
+background-color:#fff;
+
+}
+
+body{
+	background-color:#FFF7C9;
+	padding:0 auto;
+	margin:0 auto;
+	margin-right: auto;
+	margin-left:auto;
+
+}
+nav{
+	float:left;
+	width: 100%;
+	background-color:#333;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+nav ul{
+	margin:0;
+	padding:0;
+}
+
+nav ul li{
+		list-style-type:none;
+		display: inline;
+}
+nav ul li a{
+		display:block;
+		float:left;
+		padding: 5px  10px;
+		color:#fff;
+		text-decoration: none;
+		border:1px solid white;
+}
+nav ul li a:hover{
+		background-color: #0E6EE8;
+
+}
+h1
+{
+	
+	font-family:sans-serif, 'Times New Romans';
+	font-size: 30px;
+	color:#0E6EE8;
+	margin-top: 10px;
+
+
+}
+
+h2{
+	color:#0E6EE8;
+	margin-left:15px;
+}
+
+h3{
+	color:#0E6EE8;
+}
+
+
+
+footer{
+	text-align: center;
+	position:center;
+}
+
+
+section { width: 700px;
+	margin-top: 25px;
+		margin-left: auto;
+		margin-right: auto;
+		background: white;
+		border-style:light ;
+		border-width: 10px;
+		border-color:#333;
+	
+
+		}
+

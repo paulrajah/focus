@@ -1,0 +1,378 @@
+/*enging hunger*/
+
+/*colors
+gray    	 #ccc
+white 		 #fff
+black		 #000000
+
+
+
+
+*/
+
+
+html,body{
+	margin:0 auto;
+	padding:0 auto;
+	width:785px;
+}
+
+
+
+
+#wrapper{
+	margin:0 30px;
+	background-color:#fff;
+	
+}
+
+header{ padding:20px;
+		background-color:#ccc;
+		font-size: 45px;
+		color:#B20D00;
+		padding:0;
+
+}
+
+
+header{
+		text-shadow: 6px 6px 6px #9597FF;
+}
+
+
+header h1{
+		margin:0;
+
+}
+
+
+
+
+
+
+
+
+nav{
+	float:left;
+	background-color:#333;
+	width:785px;
+}
+
+nav ul{
+		margin:0;
+		padding:0;
+}
+
+nav ul li{
+		list-style: none;
+		display:inline ;
+		padding-right:30px;
+}
+nav ul li a{
+			display:block;
+			float:left;
+			padding:5px 10px;
+			color:#fff;
+			text-decoration: none;
+			border-right: 1px solid white;
+			font-size: 20px;
+			
+
+
+}
+
+nav ul li a:hover{
+			background-color:#9597FF;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+article div h3 {
+	background-color:  #FFDCD0;
+}
+
+
+
+
+div p{
+		display:none;
+		line-height: 1.5em;
+		background-color: #FFDCD0;
+	}
+
+div{ 
+	width: 100px;
+	height: auto;
+	background-color:#FFF7C2;
+ 	transition: height: 3s;
+ 				width: 3s;
+	}
+div:hover{  
+		  padding:0;
+		  padding-right:0;
+		  padding-top:0;
+		 background-color:#FFDCD0;
+
+		}
+
+
+		  
+div:hover p {
+	display: block;
+	width:40% auto;
+	padding:0 ;
+	padding-right:0;
+	padding-right:0;
+	padding-left:10px;
+	
+	border: 05px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+section{
+		padding:20px;
+}
+
+section h2 a{
+	color:#fff;
+	margin:0 0 .5em;
+	background-color:navy; 
+	padding-right: 40px;
+	
+
+
+}
+section h2{
+	color:#fff;
+	margin:0 0 .5em;
+	background-color:navy;
+	padding-right: 40px; 
+	
+	
+}
+
+
+
+
+section {
+	background-color: #FFDCD0;
+	float:left;
+	clear:left;
+	padding-right:40px;
+	width:400px;
+}
+
+
+
+section h2{
+			
+}
+
+
+
+footer{
+	background-color: #ccc;
+	text-align: center;
+	height:3%;
+	position:bottom;
+ 	clear:both;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+	font-size: 60px;
+	font-family:'Times New Roman', sans-serif;
+	
+	}
+
+
+div p{
+		display:none;
+		line-height: 1.5em;
+	}
+
+div{ 
+	width: 400px ;
+	height: auto;
+	background-color:#fff;
+ 	transition: height: 3s;
+ 				width: 3s;
+	}
+div:hover{ height:30%;
+		  width:300px; 
+		  padding:0;
+
+		}
+
+
+		  
+div:hover p {
+	display: block;
+	text-align: center;
+
+
+}
+
+
+h3{
+	
+	font-family: verdana;
+	color:#B20D00;
+}
+
+#establishment h2{
+			font-size: 20px;
+			
+
+			color:#9597FF; 
+}
+#establishment 
+		
+}
+#establishment {
+		
+		border: 2% solid black;
+		padding:0 auto;
+		margin:0 auto;
+		padding-top: 0 auto;
+		margin-top: 0 auto;
+		clear:right;
+		float:right;
+		width:300px;
+
+
+}
+
+#establihsment aside{
+		clear:right;
+		float:right;
+		width:300px;
+		padding-top: 0;
+		padding-bottom:0;
+		border:1% solid navy;
+}
+
+#establishment aside h3{
+		color:black;
+		font-size: 15px;
+}
+
+aside{
+		background-color: #ccc;
+		height:1100px;
+		
+		padding-right: 3px;
+		padding-left: 3px;
+		border:3px solid navy;
+		width:313px;
+		clear:right;
+		float:right;
+		margin:0;
+
+	}
+
+aside h2{
+	color:#9597FF;
+	font-size: 20px;
+	padding-left: 0;
+
+}
+
+aside dt dl{
+		text-decoration: none;
+		color:black;
+		background-color: #ccc;
+		text-align: center;
+		border:solid 1px navy;
+}
+aside p{
+	padding-left:10px;
+	border: 05px solid white;
+} 
+		

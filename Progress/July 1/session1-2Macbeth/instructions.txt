@@ -1,0 +1,91 @@
+Mansfield Classical Theatre Case Problem
+Data Files needed for the Case Problem: 
+- macbeth.jpg
+- macbethtxt.htm
+- macstyles.css
+- modernizr-1.5.js 
+
+Steve Karls is the director of Mansfield Classical Theatre, 
+a theatre company for young people located in Mansfield, Ohio. 
+This summer the company is planning to perform the Shakespeare 
+play Macbeth. Steve wants to put the text of the play on the 
+company’s Web site and has asked for your help in designing 
+and completing the Web page. Steve wants a separate page for 
+each scene from the play. A preview of the page you'll create
+is located in the directory.Steve has already typed the text 
+of the scene. He needs you to supply the HTML code.
+
+Complete the following: 
+
+1. 	Open the macbethtxt.htm file from the directory folder. 
+	Save the file as macbeth.htm in the same folder. This 
+	is so that you can have a backup of the file.
+
+2. 	Enclose the entire Macbeth text within the structure of 
+	an HTML document including the html, head, and body 
+	elements. Add a doctype to the document head to indicate 
+	that the page is written in HTML5.
+
+3. 	Within the head section, insert a comment containing 
+	the following text:
+	----------------------------	Macbeth: Act I, Scene 1 
+	Author: your name 
+	Date: the date
+	----------------------------4. 	Add the page title Macbeth: Act I, Scene 1.
+
+5. 	Link the file to the modernizr-1.5.js script file
+	and to the macstyles.css style sheet.	
+	Set the character set to UTF-8.
+
+6. 	Within the body element, insert a h1 and h2 heading.Within 
+	the h1 heading, insert an inline image containing the 
+	macbeth.jpg image file. Specify "Macbeth" as the alternate text. 
+	Within the h2 heading, enter the text 
+	----------------------------
+	Presented by: Mansfield Classical Theatre.
+	----------------------------
+
+7. 	Enclose the text of the play within a section element.
+
+8. 	Mark the text ACT I as an h2 heading. Mark 
+	SCENE 1 as an h3 heading. Group the	two headings 
+	within an hgroup element.
+
+9. 	Mark the summary of the scene as a paragraph. 
+	Mark the word Summary using the strong element.
+
+10. 	In the text of the play, mark the descriptions of 
+	setting, scene, and exits as separate paragraphs and italicize 
+	the text using the <em> element, as shown in the preview image.
+
+11. 	Mark the dialog as a description list, with each character’s 
+	name marked as a description term and each speech marked 
+	as a description. When a speech includes two lines, add a 
+	line break at the end of the first line to keep the speech 
+	on separate lines, as shown in the example.
+
+12. 	Directly below the paragraph containing the text Exeunt, 
+	insert the line Go to Scene 2. Mark this line as a div element 
+	with the id value direction. At the end of this line, insert a 
+	right arrow character using the 8658 character number. 
+	Add horizontal rules <hr /> directly above and below this statement.
+
+13. 	Mark the line Text provided by Online Shakespeare as a footer. 
+	Make sure the footer element is below the section element.
+14. 	Save your changes to the file, and then confirm the layout 
+	and content of the page in your Web browser.
+
+15. 	Zip the folder you are working in and submit your compressed file.
+
+
+
+
+
+
+
+
+
+
+
+
+

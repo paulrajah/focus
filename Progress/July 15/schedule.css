@@ -1,0 +1,35 @@
+.days{
+
+	background-color: orange;
+
+
+}
+
+tr {
+	background-color: #E7FFD4;
+}
+
+header {
+
+	font-size: 30px;
+	text-align: center;
+	font-family: script, verdana;
+
+
+}
+
+
+
+
+
+
+table tr td:hover {
+	background-color: #FFBAB0;
+
+
+
+
+
+}
+
+

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="UTF-8" />
+
+
+<title>CSS Layouts</title>
+
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<div id="wrapper">
+<header>
+		<img src="images/focusLogo.png" />
+
+
+</header>
+
+
+  <div class="container">
+    <div id="slides">
+    <img class="photo" src="images/focusbuilding2.jpg" alt="" width="940px" height="528px" />
+
+	 <img class="photo" src="images/newark.png" alt="" width="940px" height="528px"  />
+
+     <img class="photo" src="images/hands.jpg" alt="" width="940px" height="528px"  />
+
+     <img class="photo" src="images/hunger1.jpg" alt="" width="940px" height="528px"  />
+
+     <img class="photo" src="images/hunger2.jpg" alt="" width="940px" height="528px" />
+    </div>
+  </div>
+
+
+		
+<h1>Services</h1>
+
+<section>
+
+		<nav id="sectionnav">
+			<ul>
+				<li><a href="#">Food service 1</a></li>
+				<li><a href="#">Food service 2</a></li>
+				<li><a href="#">Food service 3</a></li>
+				<li><a href="#">Food service 4</a></li>
+				<li><a href="#">Food service 5</a></li>
+				<li><a href="#">Food service 6</a></li>
+				<li><a href="#">Food service 7</a></li>	
+
+			</ul>
+		</nav>
+		
+
+
+
+		<aside><h3>heading</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+	</aside>
+
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</section>
+
+		<section>
+		<hr>
+
+	<h2 id="aboutus">About Us</h2>
+	<hr>
+	<p>FOCUS was established in 1967 at the height of President Lyndon Johnson's War on Poverty campaign. With a $30,000 government grant, a tenacious founder, Dr. Jose Rosario, and a staff of three, the organization began its work sponsoring educational and developmental programs to improve quality-of-life and promote self-sufficiency within Newark's indigent community. FOCUS' human and financial resources have continually strengthened over the past 45 years, enabling FOCUS to offer a greater variety of services and to help an increasing number of clients.</p>
+
+
+
+	<hr>
+
+
+	 <h2 id="contactus">Contact Us</h2>
+	 
+	 <hr>
+
+
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+
+
+
+		</section>
+
+
+
+	
+	</section>
+
+		<footer> Copyright  &copy; NJIT Civic Engagement Computer Center</footer>
+
+	
+
+		</div>
+
+
+		  <!-- SlidesJS Required: Link to jQuery -->
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Link to jquery.slides.js -->
+  <script src="js/jquery.slides.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 528,
+        play: {
+          active: true,
+          auto: true,
+          interval: 4000,
+          swap: true
+        }
+      });
+    });
+  </script>
+		</body>
+
+
+
+
+		</html>

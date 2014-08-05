@@ -1,0 +1,474 @@
+/*css for index, Focus 411*/
+
+/*
+color:
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#wrapper{
+		margin:0 auto;
+		width:1200px;
+    background-color: #fff;
+
+		
+
+}
+
+header{
+		padding:20px;
+		background:#ccc;
+		text-shadow: 5px 5px 5px blue;
+
+}
+/*the food services */
+#wrapper section h2 { 
+
+                    text-align: center;
+                    color:blue; 
+                    font-size: 35px;
+                    padding:0 ;
+                    margin:0;
+
+}
+#wrapper section h2:hover{
+    text-shadow:5px 5px 5px #9bb2af;
+
+}
+
+
+
+/*This is the h1 header inside of a section*/
+.border {
+ 
+    color:orange;
+    font-family:'Comic Sans MS', verdana;
+    font-size: 50px;
+    text-align: center;
+    padding:0;
+    margin:0;
+ 
+    }
+
+
+	}
+#topnav{
+	float:left;
+	width: 100%;
+	background-color:#333;
+}
+
+#topnav ul {
+	margin:0;
+	padding:0;
+}
+
+#topnav ul li {
+		list-style-type:none;
+		display:inline; 
+}
+
+#topnav ul li a{
+	text-decoration: none;
+	color:white;
+	display:block;
+	float:left;
+	padding:5px 10px;
+	border-right:1px solid #fff;
+}
+
+#topnav ul li a:hover {
+			background-color:#383;
+
+}
+#containerone{
+		float:left;
+		width:100%;
+		background-color:#fff;
+		background:url(layout-three-liquid-background1.gif) repeat-y 20% 0;
+		
+
+}
+
+#containertwo{
+		float:left;
+		width:100%;
+		background-color:#fff;
+		background:url(layout-three-liquid-background2.gif) repeat-y 80% 0;
+	}
+#sectionnav{
+			float:left;
+			width:16%;
+			padding:20px 0;
+			margin:0 2%;
+			display:inline;
+
+}
+#sectionnav ul{
+			margin:0;
+			padding:0;
+
+}
+
+#sectionnav ul li{
+			margin: 0 0 1em;
+			padding: 0;
+			list-style-type: none;
+      border:1px solid #9bb2af;
+}
+#sectionnav ul li:hover{
+      background-color:orange;
+
+
+}
+
+#sectionnav ul li a:hover{
+  color:#fff;
+}
+
+
+#content {
+		float:left;
+		width: 56%;
+		padding:20px 0;
+		margin:0 0 0 2%;
+}
+#content h2	{
+		margin:0;
+}
+aside{
+		float:right;
+		width:16%;
+		padding:20px 0;
+		margin:0 2% 0 0 ;
+		display:inline;
+
+
+	}
+
+aside h3{
+		margin:0;
+
+
+}
+
+footer{
+		clear:both;
+    background:#ccc;
+		text-align:left;
+		padding:20px;
+		height:1%;
+
+}
+
+
+footer a{
+  clear:right;
+  float:right;
+    text-align: right;
+    text-decoration: none;
+    color:#008EE8;
+
+}
+footer a:hover{
+  color:#005C96;
+
+}
+
+
+
+
+
+#slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:5px;
+    }
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(../img/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
+
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(../img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+
+    #sectionnav {
+        border:3px solid black;
+        padding:5px;
+        text-align: center;
+        list-style-type: none;
+    }
+
+
+    #section {
+        clear:left;
+        float:left;
+        width:900px;
+        padding:20px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        
+
+
+    }
+
+
+    aside {
+
+        clear:right;
+        float:right;
+
+    }
+    
+    hr{
+      width: 500px;
+    
+    }
+
+
+
+    }
+    aside h3{
+
+        clear:right;
+        float:left;
+
+    }
+
+    #section{
+          width:900px;
+          clear:left;
+          float:left;
+
+    }
+
+  .left p {
+      width:350px;
+      clear:left;
+      float:left;
+      padding-right: 20px;
+
+    
+    }
+
+
+
+  .days{
+
+  background-color: #367FE8;
+  text-align: center;
+ 
+
+}
+.days td:hover {
+    background-color:#ccc;
+    color:#004F96;
+
+}
+
+tr {
+  background-color: #9bb2af;
+}
+
+table tr td:hover {
+  background-color: orange;
+
+}
+
+.right  {
+
+  padding-top:20px;
+  position:center;
+
+
+}
+
+
+
+.roundImg{
+    border-radius:100%;
+   clear:right;
+   float:right;
+   margin:0;
+   padding:0;
+}
+
+
+#headernav{
+        background-color:#333333;   
+        width:100% auto;
+        height:50px; 
+
+
+}
+#headernav ul{
+    margin:0;
+    padding:0;
+    height:20px;
+  
+}
+
+#headernav ul li {
+      list-style-type: none;
+      display:inline;
+      font-size: 15px;
+
+
+}
+
+#headernav ul li a {
+
+  display:block;
+    float:left;
+    padding:14px;
+    
+    color:#A8A49F;
+    text-decoration: none;
+     font-family:'Sans serif', VERDANA;
+
+   
+}
+
+#headernav ul li a:hover{
+    color:#fff;
+
+}
+
+#endhunger a{
+     color:#A8A49F;
+     font-size: 20px;
+     text-decoration: none;
+     font-family:'Sans serif', VERDANA;
+    
+  }
+
+
+#endhunger a:hover{
+      color:#fff;
+}
+#home a{
+     background-color: #000000;
+}
+
+#about {
+
+   clear:right;
+   float:right;
+   margin:5px;
+   padding:0;
+}
+
+.paragraph p{
+
+      width:500px;
+      clear:left;
+      float:left;
+      padding-right: 20px;
+      margin:10px;
+      height:240px;
+
+    
+    }

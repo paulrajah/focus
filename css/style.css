@@ -7,16 +7,6 @@ color:
 
 
 
-
-
-
-
-
-
-
-
-
-
 html,body {
    background-color: #7DACB2;
 }
@@ -139,7 +129,7 @@ header{
 }
 
 #sectionnav ul li a:hover{
-  color:#fff;
+  color:blue;
 }
 
 
@@ -302,6 +292,21 @@ footer a:hover{
         padding:5px;
         text-align: center;
         list-style-type: none;
+        
+    }
+
+    #sectionnav ul{
+      padding-top:5px;
+    }
+    #sectionnav ul li {
+      border:5px solid #9bb2af ;
+
+
+    }
+    #sectionnav ul li a{
+      text-decoration: none;
+      font-family: verdana;
+      color:#7116FF;
     }
 
 
@@ -473,4 +478,14 @@ table tr td:hover {
       height:240px;
 
     
+    }
+
+    section aside h3{
+      text-align: center;
+      font-family: verdana;
+      font-size:15px;
+      color:#7116FF;
+      background-color:#9bb2af;
+      padding:3px;
+      margin:3px;
     }

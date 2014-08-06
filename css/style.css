@@ -9,17 +9,20 @@ color:
 
 html,body {
    background-color: #002B8E !important;
-}
+ }
 
 
 #wrapper{
 margin-left:auto;
 margin-right: auto;
-
 		width:1200px;
    background-color: #fff;
-
     margin-top: 40px;
+    padding:10px;
+    border-right:5px solid;
+    border-left:5px solid;
+border-right-color:#B27E00;
+border-left-color:#B27E00;
 
 		
 
@@ -32,18 +35,8 @@ header{
  
 
 }
-/*the food services */
-#wrapper section h2 { 
 
-                    text-align: center;
-                    color:blue; 
-                    font-size: 35px;
-                    padding:0 ;
-                    margin:0;
 
-}
-#wrapper section h2:hover{
-    text-shadow:5px 5px 5px #9bb2af;
 
 }
 
@@ -168,6 +161,12 @@ footer{
 		text-align:left;
 		padding:20px;
 		height:1%;
+    margin:0;
+    border-right:5px solid;
+    border-left:5px solid;
+border-right-color:#008EE8;
+border-left-color:#008EE8;
+
 
 }
 
@@ -190,7 +189,12 @@ footer a:hover{
 
 
 #slides {
-      display: none
+      display: none;
+      border:5px solid#B27E00;
+      border-left-color:#8E05FF;
+      border-top-color:#B24200;
+      border-bottom-color:#006138;
+
     }
 
     #slides .slidesjs-navigation {
@@ -346,71 +350,7 @@ footer a:hover{
 
 
 
-    }
-    aside h3{
-
-        clear:right;
-        float:left;
-
-    }
-
-    #section{
-          width:900px;
-          clear:left;
-          float:left;
-
-    }
-
-  .left p {
-      width:350px;
-      clear:left;
-      float:left;
-      padding-right: 20px;
-
-    
-    }
-
-
-
-  .days{
-
-  background-color: #367FE8;
-  text-align: center;
  
-
-}
-.days td:hover {
-    background-color:#ccc;
-    color:#004F96;
-
-}
-
-tr {
-  background-color: #9bb2af;
-}
-
-table tr td:hover {
-  background-color: orange;
-
-}
-
-.right  {
-
-  padding-top:20px;
-  position:center;
-
-
-}
-
-
-
-.roundImg{
-    border-radius:100%;
-   clear:right;
-   float:right;
-   margin:0;
-   padding:0;
-}
 
 
 #headernav{
@@ -477,29 +417,6 @@ table tr td:hover {
    padding:0;
 }
 
-.paragraph p{
-
-      width:500px;
-      clear:left;
-      float:left;
-      padding-right: 20px;
-      margin:10px;
-      height:240px;
-
-    
-    }
-
-    section aside h3{
-      text-align: center;
-      font-family: verdana;
-      font-size:15px;
-      color:#7116FF;
-      background-color:#9bb2af;
-      padding:3px;
-      margin:3px;
-    }
-
-
 
 .textArea{
   margin-top: 20px;
@@ -512,4 +429,22 @@ table tr td:hover {
 .textArea h1 {
   color:#044DF5;
   font-weight: bolder;
+}
+
+.textArea p{
+  text-align: left;
+  
+  }
+.row{
+  padding-top:10px;
+}
+
+
+.row h2{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.img-circle{
+  margin-left:110px;
 }

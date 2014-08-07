@@ -6,9 +6,11 @@ color:
 */
 
 
+body {
 
-html,body {
-   background-color: #D4D9D3;
+   background-image: url(img/mural.jpg);
+  background-repeat: repeat-x;
+
 }
 
 
@@ -16,11 +18,7 @@ html,body {
 		margin:0 auto;
 		width:1200px;
    background-color: #fff;
-   border-left:4px solid;
-    border-right:4px solid;
-    border-left-color:orange;
-    border-right-color:orange;
-
+  
 		
 
 }
@@ -29,23 +27,14 @@ header{
 		padding:20px;
 		background:#ccc;
 		text-shadow: 5px 5px 5px blue;
- 
+    border-left:4px solid;
+    border-right:4px solid;
+    border-left-color:blue;
+    border-right-color:blue;
 
 }
-/*the food services */
-#wrapper section h2 { 
 
-                    text-align: center;
-                    color:blue; 
-                    font-size: 35px;
-                    padding:0 ;
-                    margin:0;
 
-}
-#wrapper section h2:hover{
-    text-shadow:5px 5px 5px #9bb2af;
-
-}
 
 
 
@@ -62,36 +51,7 @@ header{
     }
 
 
-	}
-#topnav{
-	float:left;
-	width: 100%;
-	background-color:#333;
-}
 
-#topnav ul {
-	margin:0;
-	padding:0;
-}
-
-#topnav ul li {
-		list-style-type:none;
-		display:inline; 
-}
-
-#topnav ul li a{
-	text-decoration: none;
-	color:white;
-	display:block;
-	float:left;
-	padding:5px 10px;
-	border-right:1px solid #fff;
-}
-
-#topnav ul li a:hover {
-			background-color:#383;
-
-}
 #containerone{
 		float:left;
 		width:100%;
@@ -107,34 +67,7 @@ header{
 		background-color:#fff;
 		background:url(layout-three-liquid-background2.gif) repeat-y 80% 0;
 	}
-#sectionnav{
-			float:left;
-			width:16%;
-			padding:20px 0;
-			margin:0 2%;
-			display:inline;
 
-
-}
-#sectionnav ul{
-			margin:0;
-			padding:0;
-   
-}
-
-#sectionnav ul li{
-			margin: 0 0 3px;
-			padding: 0;
-			list-style-type: none;
-  
-
-
-}
-#sectionnav ul li:hover{
-      background-color:orange;
-      color:#AAADA9;
-  
-}
 
 
 #content {
@@ -168,6 +101,10 @@ footer{
 		text-align:left;
 		padding:20px;
 		height:1%;
+    border-left:4px solid;
+    border-right:4px solid;
+    border-left-color:blue;
+    border-right-color:blue;
 
 }
 
@@ -289,212 +226,137 @@ footer a:hover{
 
     .navbar {
       overflow: hidden
-    }
-
-    #sectionnav {
-        border:5px solid blue;
-        padding:5px;
-        text-align: center;
-        list-style-type: none;
-        
-    }
-
-    #sectionnav ul{
-      padding-top:5px;
-    }
-    #sectionnav ul li {
-      border:5px solid #9bb2af ;
-
 
     }
-    #sectionnav ul li a{
-      text-decoration: none;
+    #one h2{
+      text-align: left;
+      color:blue;
       font-family: verdana;
-      color:#7116FF;
+      font-size:35px;
     }
 
-    #sectionnav ul li:hover{
-      background-color:orange;
-      color:white;
-}
-
-    #section {
-        clear:left;
-        float:left;
-        width:900px;
-        padding:20px;
-        padding-bottom: 20px;
-        padding-top: 10px;
-
-        
-
-
+    #one {
+      padding:10px;
+       border-left:4px solid;
+    border-right:4px solid;
+    border-left-color:orange;
+    border-right-color:orange;
     }
 
 
-    aside {
-
-        clear:right;
-        float:right;
+      #two h2{
+      text-align: left;
+      color:blue;
+       font-family: verdana;
+      font-size:35px;
 
     }
-    
+
+    #two {
+      padding:10px;
+       border-left:4px solid;
+    border-right:4px solid;
+    border-left-color:blue;
+    border-right-color:blue;
+    }
+
+
+      #three h2{
+      text-align: left;
+      color:blue;
+       font-family: verdana;
+      font-size:35px;
+
+    }
+
+    #three {
+      padding:10px;
+       border-left:4px solid;
+    border-right:4px solid;
+    border-left-color:yellow;
+    border-right-color:yellow;
+    }
     hr{
-      width: 500px;
-    
-    }
-
-
-
-    }
-    aside h3{
-
-        clear:right;
-        float:left;
-
-    }
-
-    #section{
-          width:900px;
-          clear:left;
-          float:left;
-
-    }
-
-  .left p {
-      width:350px;
-      clear:left;
-      float:left;
-      padding-right: 20px;
-
-    
-    }
-
-
-
-  .days{
-
-  background-color: #367FE8;
-  text-align: center;
- 
-
-}
-.days td:hover {
-    background-color:#ccc;
-    color:#004F96;
-
-}
-
-tr {
-  background-color: #9bb2af;
-}
-
-table tr td:hover {
-  background-color: orange;
-
-}
-
-.right  {
-
-  padding-top:20px;
-  position:center;
-
-
-}
-
-
-
-.roundImg{
-    border-radius:100%;
-   clear:right;
-   float:right;
-   margin:0;
-   padding:0;
-}
-
-
-#headernav{
-        background-color:#333333;   
-        width:100% auto;
-        height:50px; 
-
-
-}
-#headernav ul{
-    margin:0;
-    padding:0;
-    height:20px;
-  
-}
-
-#headernav ul li {
-      list-style-type: none;
-      display:inline;
-      font-size: 15px;
-
-
-}
-
-#headernav ul li a {
-
-  display:block;
-    float:left;
-    padding:14px;
-    
-    color:#A8A49F;
-    text-decoration: none;
-     font-family:'Sans serif', VERDANA;
-
-   
-}
-
-#headernav ul li a:hover{
-    color:#fff;
-
-}
-
-#endhunger a{
-     color:#A8A49F;
-     font-size: 20px;
-     text-decoration: none;
-     font-family:'Sans serif', VERDANA;
-    
-  }
-
-
-#endhunger a:hover{
-      color:#fff;
-}
-#home a{
-     background-color: #000000;
-}
-
-#about {
-
-   clear:right;
-   float:right;
-   margin:5px;
-   padding:0;
-}
-
-.paragraph p{
-
-      width:500px;
-      clear:left;
-      float:left;
-      padding-right: 20px;
-      margin:10px;
-      height:240px;
-
-    
-    }
-
-    section aside h3{
+      width:600px;
       text-align: center;
-      font-family: verdana;
-      font-size:15px;
-      color:#7116FF;
-      background-color:#9bb2af;
-      padding:3px;
-      margin:3px;
     }
+
+    #wrapper h1{
+      font-family:sans-serif;
+      font-size: 40px;
+      color:#4981FF;
+      padding:10px;
+    }
+
+    .roundImg{
+    border-radius:100%;
+     margin:0;
+   padding:0;
+}
+
+#text{
+  padding:10px;
+  width:200px;
+  text-align:center;
+}
+#text h2{
+  color:#4981FF;
+  font-size:25px;
+  font-family: 'Comic Sans MS'
+}
+
+
+#text2{
+  padding:10px;
+  width:200px;
+  text-align:center;
+}
+#text2 h2{
+  color:#4981FF;
+  font-size:25px;
+  font-family: 'Comic Sans MS'
+}
+
+
+#text3{
+
+  padding:10px;
+  width:200px;
+  text-align:center;
+}
+#text3 h2{
+  color:#4981FF;
+  font-size:25px;
+  font-family: 'Comic Sans MS'
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#view1 a{
+  text-decoration: none;
+  width:100px;
+  height:20px;
+  text-align: center;
+  background-color:#C6B9AA;
+  border-radius:15px;
+  color:#266BFF;
+  padding:10px;
+  border:2.5px solid #266BFF;
+}
+#view1 a:hover{
+ background-color:#9E9699;
+}

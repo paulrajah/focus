@@ -1,17 +1,26 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html lang="en">
 
 <head>
-<meta charset="UTF-8" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+
+   <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script> 
 
 
 <title>End Hunger in NJ - FOCUS 411</title>
 
-<link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="http://cecc.njit.edu/su14/css/bootstrap.css" rel="stylesheet">
 
 </head>
 
 <body>
+
     <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -39,26 +48,38 @@
 
 <div id="wrapper">
 
+
+
 <header>
-		<img src="img/focusLogo.png" />
+<a href="index.htm"><img src="img/focusLogo.png" alt="Focus" ></a>
+
+  
 </header>
 
-<div class="container">
-    <div id="slides">
-    <img class="photo" src="img/focusbuilding2.jpg" alt="" width="940px" height="528px" />
 
-	 <img class="photo" src="img/newark.png" alt="" width="940px" height="528px"  />
 
-     <img class="photo" src="img/hands.jpg" alt="" width="940px" height="528px"  />
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
 
-     <img class="photo" src="img/hunger1.jpg" alt="" width="940px" height="528px"  />
-
-     <img class="photo" src="img/hunger2.jpg" alt="" width="940px" height="528px" />
-    </div>
-  </div>
+                <img src="img/community.jpg" data-thumb="img/comunity.jpg" alt=""  />
+                <img src="img/focusbuilding2.jpg" data-thumb="img/focusbuilding2.jpg" alt=""  />
+                <img src="img/newark.png" data-thumb="img/newark.png" alt=""  />
+                             
+              
+              
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+        </div>
 
 
 <!----------------------------------------------------------------------------- -->
+<form method="get" action="http://www.google.com/search"> <input type="text" name="q" size="31" maxlength="255" value="" /> <input type="submit" value="Google Search" />  </form>
+
+
+
+<h1 id="welcome">Welcome to Focus 411</h1>
 
     <div class="container marketing">
 
@@ -66,21 +87,21 @@
       <div class="row">
         <div class="col-lg-4">
           <img class="img-circle" width="140px" height="140px" src="http://placehold.it/140x140" alt="Generic placeholder image">
-          <h2>Heading</h2>
+          <h2>About Us</h2>
           <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-default" href="#about" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" width="140px" height="140px" src="http://placehold.it/140x140" alt="Generic placeholder image">
+          <h2>Services</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
           <p><a class="btn btn-default" href="#services" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" width="140px" height="140px" src="http://placehold.it/140x140" alt="Generic placeholder image">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" width="140px" height="140px" src="http://placehold.it/140x140" alt="Generic placeholder image">
-          <h2>Heading</h2>
+          <h2>Contact Us</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" href="#directions" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -88,7 +109,7 @@
 <section class="textArea" id="about">
 
 	<h1>Who We Are</h1>
-
+<img src="about.jpg" alt="" width="140x140" />
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -102,7 +123,7 @@
 <section class="textArea" id="services">
 
 	<h1>Services Overivew</h1>
-
+<img src="services.png" alt="" width="140x140" />
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -117,7 +138,7 @@
 
 
 <section class="textArea" id="directions">
-
+<img src="map.png" alt="" width="140x140" />
 	<h1>Contact Us</h1>
 	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3022.705923018445!2d-74.17067!3d40.746496!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2547e0371699d%3A0xd887495e1eef0289!2sFOCUS+Hispanic+Center+for+Community+Development+Inc!5e0!3m2!1sen!2sus!4v1407338584370" width="600" height="450" frameborder="0" style="border:0"></iframe>
 
@@ -140,78 +161,21 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 		<footer>
 
-	  &copy; 2014 Company. inc. 
-		<a href="index.htm">Back to top</a>
+	  441-443 Broad Street | Newark, NJ 07102 | PH: 973.624.2528 | E-mail FOCUS 
+Copyright 2013 © FOCUS Hispanic Center for Community Development, Inc<a href="index.htm">Back to top</a>
 
 		</footer>
 
-	
-
-
-
-		  <!-- SlidesJS Required: Link to jQuery -->
-  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-  <!-- End SlidesJS Required -->
-
-  <!-- SlidesJS Required: Link to jquery.slides.js -->
-  <script src="js/jquery.slides.min.js"></script>
-  <!-- End SlidesJS Required -->
-
-  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
-  <script>
-    $(function() {
-      $('#slides').slidesjs({
-        width: 1000,
-        height: 400,
-        play: {
-          active: true,
-          auto: true,
-          interval: 4000,
-          swap: true
-        }
-      });
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
     });
-  </script>
+    </script>
+
+
+  
 		</body>
 
 
